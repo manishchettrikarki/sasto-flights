@@ -35,6 +35,8 @@
 
     <!-- <link rel="stylesheet" href="assets/css/flag-icon.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/css/flag-icons.min.css" integrity="sha512-UwbBNAFoECXUPeDhlKR3zzWU3j8ddKIQQsDOsKhXQGdiB5i3IHEXr9kXx82+gaHigbNKbTDp3VY/G6gZqva6ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://use.fontawesome.com/d51bf305ab.js"></script>
+
 
     <link rel="stylesheet" href="assets/css/style.css">
 

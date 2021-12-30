@@ -662,14 +662,55 @@
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
-        <svg class="hero-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+        <!-- <svg class="hero-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
             <path d="M761.9,40.6L643.1,24L333.9,93.8L0.1,1H0v99h1000V1"></path>
-        </svg>
+        </svg> -->
     </div>
 </section><!-- end hero-wrapper -->
 <!-- ================================
     END HERO-WRAPPER AREA
 ================================= -->
+<div class="container icons-display">
+<div class="row">
+<div class="col-md-2 icon-card">
+        <button class="btn btn-danger icon-card-btn">
+            <i class="fa fa-shield" aria-hidden="true"></i><br>
+            Insurance
+        </button>
+    </div>
+
+    <div class="col-md-2 icon-card">
+        <button class="btn btn-danger icon-card-btn">
+            <i class="fa fa-flask" aria-hidden="true"></i><br>
+            PCR-Test
+        </button>
+    </div>
+    <div class="col-md-2 icon-card">
+        <button class="btn btn-danger icon-card-btn">
+            <i class="fa fa-tree" aria-hidden="true"></i><br>
+            Trekking
+        </button>
+    </div>
+    <div class="col-md-2 icon-card">
+        <button class="btn btn-danger icon-card-btn">
+            <i class="fa fa-money" aria-hidden="true"></i><br>
+            Forex
+        </button>
+    </div>
+    <div class="col-md-2 icon-card">
+        <button class="btn btn-danger icon-card-btn">
+            <i class="fa fa-plane" aria-hidden="true"></i><br>
+            Airlines
+        </button>
+    </div>
+    <div class="col-md-2 icon-card">
+        <button class="btn btn-danger icon-card-btn">
+            <i class="fa fa-bed" aria-hidden="true"></i><br>
+            Rooms
+        </button>
+    </div>    
+</div>
+</div>
 
 
 <!-- ================================
