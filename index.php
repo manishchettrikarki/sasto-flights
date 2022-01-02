@@ -1160,22 +1160,28 @@
             <div class="col-lg-12">
                 <div class="client-logo">
                     <div class="client-logo-item">
-                        <img src="assets/images/client-logo.png" alt="brand image">
+                        <img src="assets/images/flight-logo/air-arab.png" alt="brand image">
                     </div><!-- end client-logo-item -->
                     <div class="client-logo-item">
-                        <img src="assets/images/client-logo2.png" alt="brand image">
+                        <img src="assets/images/flight-logo/air-india.png" alt="brand image">
                     </div><!-- end client-logo-item -->
                     <div class="client-logo-item">
-                        <img src="assets/images/client-logo3.png" alt="brand image">
+                        <img src="assets/images/flight-logo/quatar.png" alt="brand image">
                     </div><!-- end client-logo-item -->
                     <div class="client-logo-item">
-                        <img src="assets/images/client-logo4.png" alt="brand image">
+                        <img src="assets/images/flight-logo/spice-jet.png" alt="brand image">
                     </div><!-- end client-logo-item -->
                     <div class="client-logo-item">
-                        <img src="assets/images/client-logo5.png" alt="brand image">
+                        <img src="assets/images/flight-logo/Nepal_Airlines_logo.png" alt="brand image">
                     </div><!-- end client-logo-item -->
                     <div class="client-logo-item">
-                        <img src="assets/images/client-logo6.png" alt="brand image">
+                        <img src="assets/images/flight-logo/thai-airways-logo.png" alt="brand image">
+                    </div><!-- end client-logo-item -->
+                    <div class="client-logo-item">
+                        <img src="assets/images/flight-logo/turkish-airlines-logo-1.png" alt="brand image">
+                    </div><!-- end client-logo-item -->
+                    <div class="client-logo-item">
+                        <img src="assets/images/flight-logo/malaysia-air.png" alt="brand image">
                     </div><!-- end client-logo-item -->
                 </div><!-- end client-logo -->
             </div><!-- end col-lg-12 -->

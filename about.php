@@ -191,7 +191,7 @@
                 <div class="section-heading">
                     <h2 class="sec__title line-height-50">What our customers are saying us?</h2>
                     <p class="sec__desc padding-top-30px">
-                        Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero
+                        What our customers have to say about us.
                     </p>
                 </div><!-- end section-heading -->
             </div><!-- end col-lg-4 -->
@@ -199,17 +199,15 @@
                 <div class="testimonial-carousel carousel-action">
                     <div class="testimonial-card">
                         <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia
-                                deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat
-                                non proident des.</p>
+                            <p class="testi__desc">One of the best travel agency in Nepal. When i firsts started talking with them for my requirement. The team with them were so friendly and sofisticated that it constantly made me come here again and again. Literally the best service</p>
                         </div>
                         <div class="author-content d-flex align-items-center">
                             <div class="author-img">
-                                <img src="assets/images/team8.jpg" alt="testimonial image">
+                                <img src="assets/images/update.png" alt="testimonial image">
                             </div>
                             <div class="author-bio">
-                                <h4 class="author__title">Leroy Bell</h4>
-                                <span class="author__meta">United States</span>
+                                <h4 class="author__title">Ravi Gupta</h4>
+                                <span class="author__meta">India</span>
                                 <span class="ratings d-flex align-items-center">
                                     <i class="la la-star"></i>
                                     <i class="la la-star"></i>
@@ -222,17 +220,15 @@
                     </div><!-- end testimonial-card -->
                     <div class="testimonial-card">
                         <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia
-                                deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat
-                                non proident des.</p>
+                            <p class="testi__desc">Best customer service I Have experienced so far for all the travel agency in Nepal</p>
                         </div>
                         <div class="author-content d-flex align-items-center">
                             <div class="author-img">
-                                <img src="assets/images/team9.jpg" alt="testimonial image">
+                                <img src="assets/images/update.png" alt="testimonial image">
                             </div>
                             <div class="author-bio">
-                                <h4 class="author__title">Richard Pam</h4>
-                                <span class="author__meta">Canada</span>
+                                <h4 class="author__title">Sonali Bhattarai</h4>
+                                <span class="author__meta">Kathmandu</span>
                                 <span class="ratings d-flex align-items-center">
                                     <i class="la la-star"></i>
                                     <i class="la la-star"></i>
@@ -245,17 +241,15 @@
                     </div><!-- end testimonial-card -->
                     <div class="testimonial-card">
                         <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia
-                                deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat
-                                non proident des.</p>
+                            <p class="testi__desc">I fod their service the best because they have assisted me in multiple occasions with difficult situations during my business flight cancelations. They are upfront and helpful</p>
                         </div>
                         <div class="author-content d-flex align-items-center">
                             <div class="author-img">
-                                <img src="assets/images/team10.jpg" alt="testimonial image">
+                                <img src="assets/images/update.png" alt="testimonial image">
                             </div>
                             <div class="author-bio">
-                                <h4 class="author__title">Luke Jacobs</h4>
-                                <span class="author__meta">Australia</span>
+                                <h4 class="author__title">Ravindra Rana</h4>
+                                <span class="author__meta">Pokhara</span>
                                 <span class="ratings d-flex align-items-center">
                                     <i class="la la-star"></i>
                                     <i class="la la-star"></i>
@@ -266,29 +260,7 @@
                             </div>
                         </div>
                     </div><!-- end testimonial-card -->
-                    <div class="testimonial-card">
-                        <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia
-                                deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat
-                                non proident des.</p>
-                        </div>
-                        <div class="author-content d-flex align-items-center">
-                            <div class="author-img">
-                                <img src="assets/images/team8.jpg" alt="testimonial image">
-                            </div>
-                            <div class="author-bio">
-                                <h4 class="author__title">Chulbul Panday</h4>
-                                <span class="author__meta">Italy</span>
-                                <span class="ratings d-flex align-items-center">
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div><!-- end testimonial-card -->
+                   
                 </div><!-- end testimonial-carousel -->
             </div><!-- end col-lg-8 -->
         </div><!-- end row -->

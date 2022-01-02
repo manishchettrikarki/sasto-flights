@@ -9,8 +9,8 @@
                     Dec 3, 2021
                 </a>
 
-                <h2 class="accordion-header" id="headingOne">
-                    <a class="theme-btn w-60 text-center margin-top-20px" type="button" data-bs-toggle="collapse"
+                <h2 id="headingOne">
+                    <a class="modify-search font-size-18" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <i class="la la-search-plus"></i>Modify Search
                     </a>
@@ -53,8 +53,8 @@
                         <a href="#" class="theme-btn w-50 text-center margin-top-20px">Dec 5, 2021<i
                                 class="la la-angle-double-right"></i></a></p>
 
-                    <h2 class="accordion-header" id="headingTwo">
-                        <p align="right"><a class="theme-btn w-50 text-center margin-top-20px" type="button"
+                    <h2 id="headingTwo">
+                        <p align="right"><a class="modify-search font-size-18" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                 aria-controls="collapseTwo">
                                 <i class="la la-bars"></i>Filters
@@ -65,6 +65,12 @@
         </div>
 
     </div>
+</div>
+<div class="container">
+<div class="row">
+    <img src="assets/images/connect-ips.gif">
+</div>
+
 </div>
 
 <!-- ================================
@@ -421,12 +427,14 @@
                     <div class="col-md-3">
 
                         <h2 class="accordion-header" id="headingThree">
-                            <a class="btn btn-danger w-100 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 View Details
                             </a>
                         </h2>
-                        <button class="btn btn-danger w-100">Book Now</button>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
                     </div>
 
                     <!-- Flight Details -->
@@ -504,35 +512,35 @@
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                     aria-labelledby="nav-profile-tab">
                                     <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Type</th>
-                                            <th scope="col">Base Fare (Per Person)</th>
-                                            <th scope="col">Tax</th>
-                                            <th scope="col">Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
 
-                                        <tr>
-                                            <td colspan="3"><strong>Total Fare</strong>
-                                            </td>
-                                            <td><strong>NRP 110914</strong></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">...</div>
@@ -580,12 +588,14 @@
                     <div class="col-md-3">
 
                         <h2 class="accordion-header" id="headingThree">
-                            <a class="btn btn-danger w-100 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 View Details
                             </a>
                         </h2>
-                        <button class="btn btn-danger w-100">Book Now</button>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
                     </div>
 
                     <!-- Flight Details -->
@@ -663,35 +673,35 @@
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                     aria-labelledby="nav-profile-tab">
                                     <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Type</th>
-                                            <th scope="col">Base Fare (Per Person)</th>
-                                            <th scope="col">Tax</th>
-                                            <th scope="col">Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
 
-                                        <tr>
-                                            <td colspan="3"><strong>Total Fare</strong>
-                                            </td>
-                                            <td><strong>NRP 110914</strong></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">...</div>
@@ -739,12 +749,14 @@
                     <div class="col-md-3">
 
                         <h2 class="accordion-header" id="headingThree">
-                            <a class="btn btn-danger w-100 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 View Details
                             </a>
                         </h2>
-                        <button class="btn btn-danger w-100">Book Now</button>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
                     </div>
 
                     <!-- Flight Details -->
@@ -822,35 +834,35 @@
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                     aria-labelledby="nav-profile-tab">
                                     <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Type</th>
-                                            <th scope="col">Base Fare (Per Person)</th>
-                                            <th scope="col">Tax</th>
-                                            <th scope="col">Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
 
-                                        <tr>
-                                            <td colspan="3"><strong>Total Fare</strong>
-                                            </td>
-                                            <td><strong>NRP 110914</strong></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">...</div>
@@ -899,12 +911,14 @@
                     <div class="col-md-3">
 
                         <h2 class="accordion-header" id="headingThree">
-                            <a class="btn btn-danger w-100 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 View Details
                             </a>
                         </h2>
-                        <button class="btn btn-danger w-100">Book Now</button>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
                     </div>
 
                     <!-- Flight Details -->
@@ -982,35 +996,35 @@
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                     aria-labelledby="nav-profile-tab">
                                     <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Type</th>
-                                            <th scope="col">Base Fare (Per Person)</th>
-                                            <th scope="col">Tax</th>
-                                            <th scope="col">Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
 
-                                        <tr>
-                                            <td colspan="3"><strong>Total Fare</strong>
-                                            </td>
-                                            <td><strong>NRP 110914</strong></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">...</div>
@@ -1019,7 +1033,7 @@
                     </div>
                 </div><!-- end col-lg-4 -->
             </div>
-            
+
             <div class="responsive-column">
                 <div class="row card-item flight-card flight--card">
                     <div class="col-md-2">
@@ -1058,12 +1072,14 @@
                     <div class="col-md-3">
 
                         <h2 class="accordion-header" id="headingThree">
-                            <a class="btn btn-danger w-100 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 View Details
                             </a>
                         </h2>
-                        <button class="btn btn-danger w-100">Book Now</button>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
                     </div>
 
                     <!-- Flight Details -->
@@ -1141,35 +1157,35 @@
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                     aria-labelledby="nav-profile-tab">
                                     <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Type</th>
-                                            <th scope="col">Base Fare (Per Person)</th>
-                                            <th scope="col">Tax</th>
-                                            <th scope="col">Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">ADT*1</th>
-                                            <td>NRP 38220*1</td>
-                                            <td>NRP 17237*1</td>
-                                            <td>NRP 55457</td>
-                                        </tr>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
 
-                                        <tr>
-                                            <td colspan="3"><strong>Total Fare</strong>
-                                            </td>
-                                            <td><strong>NRP 110914</strong></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">...</div>
@@ -1179,14 +1195,6 @@
                 </div><!-- end col-lg-4 -->
             </div>
 
-        </div><!-- end row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="btn-box mt-3 text-center">
-                    <button type="button" class="theme-btn"><i class="la la-refresh mr-1"></i>Load More</button>
-                    <p class="font-size-13 pt-2">Showing 1 - 6 of 24 Flights</p>
-                </div><!-- end btn-box -->
-            </div><!-- end col-lg-12 -->
         </div><!-- end row -->
     </div><!-- end container -->
 </section><!-- end card-area -->
@@ -1209,8 +1217,8 @@
                     </div><!-- end info-icon-->
                     <div class="info-content">
                         <h4 class="info__title">Need Help? Contact us</h4>
-                        <p class="info__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <p class="info__desc font-weight-bold">
+                        +977-01-234734
                         </p>
                     </div><!-- end info-content -->
                 </a><!-- end icon-box -->
@@ -1223,7 +1231,7 @@
                     <div class="info-content">
                         <h4 class="info__title">Payments</h4>
                         <p class="info__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            You can make online payment through your online banking or any other wallet application
                         </p>
                     </div><!-- end info-content -->
                 </a><!-- end icon-box -->
@@ -1236,7 +1244,7 @@
                     <div class="info-content">
                         <h4 class="info__title">Cancel Policy</h4>
                         <p class="info__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            We provide cancle policy on refundable flight according to the flight rules
                         </p>
                     </div><!-- end info-content -->
                 </a><!-- end icon-box -->
