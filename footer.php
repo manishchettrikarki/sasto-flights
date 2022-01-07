@@ -1,16 +1,14 @@
 <!-- ================================
        START FOOTER AREA
 ================================= -->
-<section class="footer-area section-bg padding-top-100px padding-bottom-30px footer-top ">
+<section class="footer-area section-bg padding-top-50px footer-top ">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 responsive-column">
                 <div class="footer-item">
-                    <div class="footer-logo padding-bottom-30px">
+                    <div class="footer-logo">
                         <a href="index.html" class="foot__logo"><img src="assets/images/logo-sasto.png" alt="logo"></a>
                     </div><!-- end logo -->
-                    <p class="footer__desc">Search for the cheapest airline tickets for all the top airlines around the
-                        world and the top international flight routes with SASTO FLIGHTS.</p>
                     <ul class="list-items pt-3 footer-list">
                         <li>Kathmandu, Nepal Gairidhara Street</li>
                         <li>+977-01-234734</li>
@@ -22,12 +20,9 @@
                 <div class="footer-item">
                     <h4 class="title curve-shape pb-3 margin-bottom-20px footer-title" data-text="curvs">Company</h4>
                     <ul class="list-items list--items">
-                        <li><a href="about.html">Home</a></li>
-                        <li><a href="services.html">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="blog-grid.html">Login in</a></li>
-                        <li><a href="contact.html">Sign Up</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="about.html">Terms and Conditions</a></li>
+                        <li><a href="services.html">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
                     </ul>
                 </div><!-- end footer-item -->
             </div><!-- end col-lg-3 -->

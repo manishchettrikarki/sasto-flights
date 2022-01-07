@@ -64,8 +64,16 @@
                     <div class="header-top-content">
                         <div class="header-right d-flex align-items-center justify-content-end">
                             <div class="header-right-action">
-                                <a href="#" class="theme-btn theme-btn-small theme-btn-transparent mr-1" data-bs-toggle="modal" data-bs-target="#signupPopupForm">Sign Up</a>
-                                 <a href="#" class="theme-btn theme-btn-small" data-bs-toggle="modal" data-bs-target="#loginPopupForm">Login</a>
+                                <ul class="list-items">
+                                    <li>
+                                    <a href="#" class="font-size-12 font-weight-bold"  data-bs-toggle="modal" data-bs-target="#signupPopupForm">Sign Up</a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="font-size-12 font-weight-bold" data-bs-toggle="modal" data-bs-target="#loginPopupForm">Login</a>
+                                    </li>
+                                </ul>
+                           
+                                 
                             </div>
                         </div>
                     </div>

@@ -35,19 +35,19 @@
                         <div class="section-tab section-tab-2 pb-3">
                             <ul class="nav nav-tabs" id="myTab3" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="one-way-tab" data-bs-toggle="tab" href="#one-way"
+                                    <a class="nav-link active font-size-20 font-weight-bold" id="one-way-tab" data-bs-toggle="tab" href="#one-way"
                                         role="tab" aria-controls="one-way" aria-selected="true">
                                         One way
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="round-trip-tab" data-bs-toggle="tab" href="#round-trip"
+                                    <a class="nav-link font-size-20 font-weight-bold" id="round-trip-tab" data-bs-toggle="tab" href="#round-trip"
                                         role="tab" aria-controls="round-trip" aria-selected="false">
                                         Round-trip
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="multi-city-tab" data-bs-toggle="tab" href="#multi-city"
+                                    <a class="nav-link font-size-20 font-weight-bold" id="multi-city-tab" data-bs-toggle="tab" href="#multi-city"
                                         role="tab" aria-controls="multi-city" aria-selected="false">
                                         Multi-city
                                     </a>

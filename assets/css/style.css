@@ -1258,6 +1258,9 @@ body {
 .padding-bottom-20px {
     padding-bottom: 20px
 }
+.padding-bottom-15px {
+    padding-bottom: 15px
+}
 
 .padding-bottom-10px {
     padding-bottom: 10px
@@ -3729,10 +3732,10 @@ body {
 }
 
 .header-top-bar {
-    background-color: #fff;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgba(128, 137, 150, .1)
+    background-color: #C82127;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    /* border-bottom: 1px solid rgba(128, 137, 150, .1) */
 }
 
 @media (max-width:1366px) {
@@ -3814,7 +3817,7 @@ body {
 }
 
 .header-top-content .list-items li a {
-    color: #0d233e
+    color: #fff;
 }
 
 .header-top-content .list-items li a:before {
@@ -3933,7 +3936,7 @@ body {
 }
 
 .header-menu-wrapper {
-    background:#80C0F3;
+    background:#0B87C7;
     z-index: 1024
 }
 
@@ -4072,7 +4075,7 @@ body {
 .logo {
     z-index: 2;
     background-color: white;
-    padding: 16px;
+    padding: 8px;
     margin: 10px;
     border-radius: 74px;
 }
@@ -5417,7 +5420,7 @@ body {
 
 .card-item .card-title {
     font-size: 19px;
-    color: #0d233e;
+    color: #2171fd;
     margin-bottom: 2px
 }
 
@@ -10767,7 +10770,7 @@ body {
 }
 
 .section-tab-2 .nav-tabs .nav-link {
-    color: #0d233e;
+    color: #C82127;
     background-color: transparent;
     padding: 0 0 0 20px;
     font-size: 14px;
@@ -11416,7 +11419,7 @@ body {
 
 .footer-item {
     position: relative;
-    margin-bottom: 50px
+    margin-bottom: 20px
 }
 
 .footer-item .footer__desc a {
@@ -11607,7 +11610,7 @@ body {
     justify-content: center;
     position: sticky;
     padding-top: 10px;
-    top: 100px;
+    top: 90px;
     z-index: 99;
     /* background-color:#C9EBFF; */
 }
@@ -11657,9 +11660,10 @@ body {
     padding-left:2px;
 }
 .icon-card-btn{
-    width:100px;
-    background-color: #80C0F3;
-    border: #80C0F3;
+    width:150px;
+    background-color: #C82127;
+    border: #C82127;
+    /* background-image: url("../../assets/images/buuton-back.png"); */
 }
 
 /* Modify Search Style */
@@ -11675,8 +11679,8 @@ body {
     color: #ffffff;
 }
 .btn-primary{
-    background-color: #80C0F3;
-    border: #80C0F3;
+    background-color: #C82127;
+    border: #C82127;
     text-align: center;
     font-size: 18px;
     padding:10px;
@@ -11705,4 +11709,37 @@ body {
 }
 .footer-item ul li a{
 color: #ffffff !important;
+}
+.shadow-background{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-height: 1000px;
+    /* overflow-y: scroll; */
+}
+.accordion-body{
+    padding: 0px;
+}
+.full-width .nav-tabs{
+    background-color: #C82127;
+}
+.nav-tabs .nav-link{
+    color:#ffffff;
+}
+.background{
+    background-color:aliceblue;
+}
+.full-width{
+    padding: 0px !important;
+}
+.page-scroll{
+    padding: 10px;
+}
+.white{
+    background-color: #fff;
+}
+.clock{
+    font-size:30px;
+    color: #0B87C7;
+}
+.red{
+    color: #C82127;
 }
