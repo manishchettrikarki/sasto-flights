@@ -1597,7 +1597,9 @@ body {
 .margin-bottom-10px {
     margin-bottom: 10px
 }
-
+.margin-right-20px{
+    margin-right: 20px;
+}
 .preloader {
     position: fixed;
     top: 0;
@@ -5902,7 +5904,8 @@ body {
 
 .flight--card {
     padding: 20px;
-    border: 1px solid rgba(128, 137, 150, .2)
+    border: 1px solid rgba(128, 137, 150, .2);
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
 }
 
 .flight--card .card-img {
@@ -11735,6 +11738,7 @@ color: #ffffff !important;
 }
 .white{
     background-color: #fff;
+    padding: 0px;
 }
 .clock{
     font-size:30px;
@@ -11742,4 +11746,15 @@ color: #ffffff !important;
 }
 .red{
     color: #C82127;
+}
+.sticky-search{
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-top: 2px;
+}
+.search-result-top{
+  display: flex;
+  align-items: center;
+  justify-content: center
 }

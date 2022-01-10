@@ -1,32 +1,46 @@
 <?php include("header.php"); ?>
-
-<!-- ================================
-    START BREADCRUMB AREA
-================================= -->
-<section class="breadcrumb-area bread-bg-6">
-    <div class="breadcrumb-wrap">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="breadcrumb-content">
-                        <div class="section-heading">
-                            <h2 class="sec__title text-white">Flight Booking</h2>
-                        </div>
-                    </div><!-- end breadcrumb-content -->
-                </div><!-- end col-lg-6 -->
-                
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end breadcrumb-wrap -->
-</section><!-- end breadcrumb-area -->
-<!-- ================================
-    END BREADCRUMB AREA
-================================= -->
-
 <!-- ================================
     START BOOKING AREA
 ================================= -->
-<section class="booking-area padding-top-100px padding-bottom-70px">
+<section class="booking-area padding-top-100px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Flight Name</th>
+                            <th scope="col">Flight Type</th>
+                            <th scope="col">Depart from</th>
+                            <th scope="col">Depart time</th>
+                            <th scope="col">Arrive on</th>
+                            <th scope="col">Arrival Time</th>
+                            <th scope="col">Passangers</th>
+                            <th scope="col">Base Fare</th>
+                            <th scope="col">Tax</th>
+                            <th scope="col">Total Fare</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Air Arabia</th>
+                            <td>First Class</td>
+                            <td>KTM</td>
+                            <td>12 May 7:40 AM</td>
+                            <td>AUH</td>
+                            <td>13 May 8:40 AM</td>
+                            <td>1 Adult 1 children</td>
+                            <td>$ 500</td>
+                            <td>$ 150</td>
+                            <td>$ 650</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="booking-area padding-bottom-70px">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -104,7 +118,8 @@
                                                         <option value="Angola">Angola</option>
                                                         <option value="Anguilla">Anguilla</option>
                                                         <option value="Antarctica">Antarctica</option>
-                                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                        <option value="Antigua and Barbuda">Antigua and Barbuda
+                                                        </option>
                                                         <option value="Argentina">Argentina</option>
                                                         <option value="Armenia">Armenia</option>
                                                         <option value="Aruba">Aruba</option>
@@ -122,14 +137,17 @@
                                                         <option value="Bermuda">Bermuda</option>
                                                         <option value="Bhutan">Bhutan</option>
                                                         <option value="Bolivia">Bolivia</option>
-                                                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina
+                                                        <option value="Bosnia and Herzegovina">Bosnia and
+                                                            Herzegovina
                                                         </option>
                                                         <option value="Botswana">Botswana</option>
                                                         <option value="Bouvet Island">Bouvet Island</option>
                                                         <option value="Brazil">Brazil</option>
-                                                        <option value="British Indian Ocean Territory">British Indian
+                                                        <option value="British Indian Ocean Territory">British
+                                                            Indian
                                                             Ocean Territory</option>
-                                                        <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                                        <option value="Brunei Darussalam">Brunei Darussalam
+                                                        </option>
                                                         <option value="Bulgaria">Bulgaria</option>
                                                         <option value="Burkina Faso">Burkina Faso</option>
                                                         <option value="Burundi">Burundi</option>
@@ -143,13 +161,16 @@
                                                         <option value="Chad">Chad</option>
                                                         <option value="Chile">Chile</option>
                                                         <option value="China">China</option>
-                                                        <option value="Christmas Island">Christmas Island</option>
-                                                        <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands
+                                                        <option value="Christmas Island">Christmas Island
+                                                        </option>
+                                                        <option value="Cocos (Keeling) Islands">Cocos (Keeling)
+                                                            Islands
                                                         </option>
                                                         <option value="Colombia">Colombia</option>
                                                         <option value="Comoros">Comoros</option>
                                                         <option value="Congo">Congo</option>
-                                                        <option value="Congo, The Democratic Republic of The">Congo, The
+                                                        <option value="Congo, The Democratic Republic of The">
+                                                            Congo, The
                                                             Democratic Republic of The</option>
                                                         <option value="Cook Islands">Cook Islands</option>
                                                         <option value="Costa Rica">Costa Rica</option>
@@ -161,23 +182,28 @@
                                                         <option value="Denmark">Denmark</option>
                                                         <option value="Djibouti">Djibouti</option>
                                                         <option value="Dominica">Dominica</option>
-                                                        <option value="Dominican Republic">Dominican Republic</option>
+                                                        <option value="Dominican Republic">Dominican Republic
+                                                        </option>
                                                         <option value="Ecuador">Ecuador</option>
                                                         <option value="Egypt">Egypt</option>
                                                         <option value="El Salvador">El Salvador</option>
-                                                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                                        <option value="Equatorial Guinea">Equatorial Guinea
+                                                        </option>
                                                         <option value="Eritrea">Eritrea</option>
                                                         <option value="Estonia">Estonia</option>
                                                         <option value="Ethiopia">Ethiopia</option>
-                                                        <option value="Falkland Islands (Malvinas)">Falkland Islands
+                                                        <option value="Falkland Islands (Malvinas)">Falkland
+                                                            Islands
                                                             (Malvinas)</option>
                                                         <option value="Faroe Islands">Faroe Islands</option>
                                                         <option value="Fiji">Fiji</option>
                                                         <option value="Finland">Finland</option>
                                                         <option value="France">France</option>
                                                         <option value="French Guiana">French Guiana</option>
-                                                        <option value="French Polynesia">French Polynesia</option>
-                                                        <option value="French Southern Territories">French Southern
+                                                        <option value="French Polynesia">French Polynesia
+                                                        </option>
+                                                        <option value="French Southern Territories">French
+                                                            Southern
                                                             Territories</option>
                                                         <option value="Gabon">Gabon</option>
                                                         <option value="Gambia">Gambia</option>
@@ -196,9 +222,11 @@
                                                         <option value="Guinea-bissau">Guinea-bissau</option>
                                                         <option value="Guyana">Guyana</option>
                                                         <option value="Haiti">Haiti</option>
-                                                        <option value="Heard Island and Mcdonald Islands">Heard Island
+                                                        <option value="Heard Island and Mcdonald Islands">Heard
+                                                            Island
                                                             and Mcdonald Islands</option>
-                                                        <option value="Holy See (Vatican City State)">Holy See (Vatican
+                                                        <option value="Holy See (Vatican City State)">Holy See
+                                                            (Vatican
                                                             City State)</option>
                                                         <option value="Honduras">Honduras</option>
                                                         <option value="Hong Kong">Hong Kong</option>
@@ -206,7 +234,8 @@
                                                         <option value="Iceland">Iceland</option>
                                                         <option value="India">India</option>
                                                         <option value="Indonesia">Indonesia</option>
-                                                        <option value="Iran, Islamic Republic of">Iran, Islamic Republic
+                                                        <option value="Iran, Islamic Republic of">Iran, Islamic
+                                                            Republic
                                                             of</option>
                                                         <option value="Iraq">Iraq</option>
                                                         <option value="Ireland">Ireland</option>
@@ -220,18 +249,22 @@
                                                         <option value="Kazakhstan">Kazakhstan</option>
                                                         <option value="Kenya">Kenya</option>
                                                         <option value="Kiribati">Kiribati</option>
-                                                        <option value="Korea, Democratic People's Republic of">Korea,
+                                                        <option value="Korea, Democratic People's Republic of">
+                                                            Korea,
                                                             Democratic People's Republic of</option>
-                                                        <option value="Korea, Republic of">Korea, Republic of</option>
+                                                        <option value="Korea, Republic of">Korea, Republic of
+                                                        </option>
                                                         <option value="Kuwait">Kuwait</option>
                                                         <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                                        <option value="Lao People's Democratic Republic">Lao People's
+                                                        <option value="Lao People's Democratic Republic">Lao
+                                                            People's
                                                             Democratic Republic</option>
                                                         <option value="Latvia">Latvia</option>
                                                         <option value="Lebanon">Lebanon</option>
                                                         <option value="Lesotho">Lesotho</option>
                                                         <option value="Liberia">Liberia</option>
-                                                        <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya
+                                                        <option value="Libyan Arab Jamahiriya">Libyan Arab
+                                                            Jamahiriya
                                                         </option>
                                                         <option value="Liechtenstein">Liechtenstein</option>
                                                         <option value="Lithuania">Lithuania</option>
@@ -245,15 +278,18 @@
                                                         <option value="Maldives">Maldives</option>
                                                         <option value="Mali">Mali</option>
                                                         <option value="Malta">Malta</option>
-                                                        <option value="Marshall Islands">Marshall Islands</option>
+                                                        <option value="Marshall Islands">Marshall Islands
+                                                        </option>
                                                         <option value="Martinique">Martinique</option>
                                                         <option value="Mauritania">Mauritania</option>
                                                         <option value="Mauritius">Mauritius</option>
                                                         <option value="Mayotte">Mayotte</option>
                                                         <option value="Mexico">Mexico</option>
-                                                        <option value="Micronesia, Federated States of">Micronesia,
+                                                        <option value="Micronesia, Federated States of">
+                                                            Micronesia,
                                                             Federated States of</option>
-                                                        <option value="Moldova, Republic of">Moldova, Republic of
+                                                        <option value="Moldova, Republic of">Moldova, Republic
+                                                            of
                                                         </option>
                                                         <option value="Monaco">Monaco</option>
                                                         <option value="Mongolia">Mongolia</option>
@@ -266,7 +302,8 @@
                                                         <option value="Nauru">Nauru</option>
                                                         <option value="Nepal">Nepal</option>
                                                         <option value="Netherlands">Netherlands</option>
-                                                        <option value="Netherlands Antilles">Netherlands Antilles
+                                                        <option value="Netherlands Antilles">Netherlands
+                                                            Antilles
                                                         </option>
                                                         <option value="New Caledonia">New Caledonia</option>
                                                         <option value="New Zealand">New Zealand</option>
@@ -275,16 +312,19 @@
                                                         <option value="Nigeria">Nigeria</option>
                                                         <option value="Niue">Niue</option>
                                                         <option value="Norfolk Island">Norfolk Island</option>
-                                                        <option value="Northern Mariana Islands">Northern Mariana
+                                                        <option value="Northern Mariana Islands">Northern
+                                                            Mariana
                                                             Islands</option>
                                                         <option value="Norway">Norway</option>
                                                         <option value="Oman">Oman</option>
                                                         <option value="Pakistan">Pakistan</option>
                                                         <option value="Palau">Palau</option>
-                                                        <option value="Palestinian Territory, Occupied">Palestinian
+                                                        <option value="Palestinian Territory, Occupied">
+                                                            Palestinian
                                                             Territory, Occupied</option>
                                                         <option value="Panama">Panama</option>
-                                                        <option value="Papua New Guinea">Papua New Guinea</option>
+                                                        <option value="Papua New Guinea">Papua New Guinea
+                                                        </option>
                                                         <option value="Paraguay">Paraguay</option>
                                                         <option value="Peru">Peru</option>
                                                         <option value="Philippines">Philippines</option>
@@ -295,19 +335,24 @@
                                                         <option value="Qatar">Qatar</option>
                                                         <option value="Reunion">Reunion</option>
                                                         <option value="Romania">Romania</option>
-                                                        <option value="Russian Federation">Russian Federation</option>
+                                                        <option value="Russian Federation">Russian Federation
+                                                        </option>
                                                         <option value="Rwanda">Rwanda</option>
                                                         <option value="Saint Helena">Saint Helena</option>
-                                                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis
+                                                        <option value="Saint Kitts and Nevis">Saint Kitts and
+                                                            Nevis
                                                         </option>
                                                         <option value="Saint Lucia">Saint Lucia</option>
-                                                        <option value="Saint Pierre and Miquelon">Saint Pierre and
+                                                        <option value="Saint Pierre and Miquelon">Saint Pierre
+                                                            and
                                                             Miquelon</option>
-                                                        <option value="Saint Vincent and The Grenadines">Saint Vincent
+                                                        <option value="Saint Vincent and The Grenadines">Saint
+                                                            Vincent
                                                             and The Grenadines</option>
                                                         <option value="Samoa">Samoa</option>
                                                         <option value="San Marino">San Marino</option>
-                                                        <option value="Sao Tome and Principe">Sao Tome and Principe
+                                                        <option value="Sao Tome and Principe">Sao Tome and
+                                                            Principe
                                                         </option>
                                                         <option value="Saudi Arabia">Saudi Arabia</option>
                                                         <option value="Senegal">Senegal</option>
@@ -321,53 +366,65 @@
                                                         <option value="Somalia">Somalia</option>
                                                         <option value="South Africa">South Africa</option>
                                                         <option value="South Georgia and The South Sandwich Islands">
-                                                            South Georgia and The South Sandwich Islands</option>
+                                                            South Georgia and The South Sandwich Islands
+                                                        </option>
                                                         <option value="Spain">Spain</option>
                                                         <option value="Sri Lanka">Sri Lanka</option>
                                                         <option value="Sudan">Sudan</option>
                                                         <option value="Suriname">Suriname</option>
-                                                        <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen
+                                                        <option value="Svalbard and Jan Mayen">Svalbard and Jan
+                                                            Mayen
                                                         </option>
                                                         <option value="Swaziland">Swaziland</option>
                                                         <option value="Sweden">Sweden</option>
                                                         <option value="Switzerland">Switzerland</option>
-                                                        <option value="Syrian Arab Republic">Syrian Arab Republic
+                                                        <option value="Syrian Arab Republic">Syrian Arab
+                                                            Republic
                                                         </option>
-                                                        <option value="Taiwan, Province of China">Taiwan, Province of
+                                                        <option value="Taiwan, Province of China">Taiwan,
+                                                            Province of
                                                             China</option>
                                                         <option value="Tajikistan">Tajikistan</option>
-                                                        <option value="Tanzania, United Republic of">Tanzania, United
+                                                        <option value="Tanzania, United Republic of">Tanzania,
+                                                            United
                                                             Republic of</option>
                                                         <option value="Thailand">Thailand</option>
                                                         <option value="Timor-leste">Timor-leste</option>
                                                         <option value="Togo">Togo</option>
                                                         <option value="Tokelau">Tokelau</option>
                                                         <option value="Tonga">Tonga</option>
-                                                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                                        <option value="Trinidad and Tobago">Trinidad and Tobago
+                                                        </option>
                                                         <option value="Tunisia">Tunisia</option>
                                                         <option value="Turkey">Turkey</option>
                                                         <option value="Turkmenistan">Turkmenistan</option>
-                                                        <option value="Turks and Caicos Islands">Turks and Caicos
+                                                        <option value="Turks and Caicos Islands">Turks and
+                                                            Caicos
                                                             Islands</option>
                                                         <option value="Tuvalu">Tuvalu</option>
                                                         <option value="Uganda">Uganda</option>
                                                         <option value="Ukraine">Ukraine</option>
-                                                        <option value="United Arab Emirates">United Arab Emirates
+                                                        <option value="United Arab Emirates">United Arab
+                                                            Emirates
                                                         </option>
                                                         <option value="United Kingdom">United Kingdom</option>
                                                         <option value="United States">United States</option>
-                                                        <option value="United States Minor Outlying Islands">United
+                                                        <option value="United States Minor Outlying Islands">
+                                                            United
                                                             States Minor Outlying Islands</option>
                                                         <option value="Uruguay">Uruguay</option>
                                                         <option value="Uzbekistan">Uzbekistan</option>
                                                         <option value="Vanuatu">Vanuatu</option>
                                                         <option value="Venezuela">Venezuela</option>
                                                         <option value="Viet Nam">Viet Nam</option>
-                                                        <option value="Virgin Islands, British">Virgin Islands, British
+                                                        <option value="Virgin Islands, British">Virgin Islands,
+                                                            British
                                                         </option>
-                                                        <option value="Virgin Islands, U.S.">Virgin Islands, U.S.
+                                                        <option value="Virgin Islands, U.S.">Virgin Islands,
+                                                            U.S.
                                                         </option>
-                                                        <option value="Wallis and Futuna">Wallis and Futuna</option>
+                                                        <option value="Wallis and Futuna">Wallis and Futuna
+                                                        </option>
                                                         <option value="Western Sahara">Western Sahara</option>
                                                         <option value="Yemen">Yemen</option>
                                                         <option value="Zambia">Zambia</option>
@@ -407,203 +464,41 @@
                                             </div>
                                         </div>
                                     </div><!-- end col-lg-6 -->
-                                    
+
                                 </div>
                             </form>
                         </div><!-- end contact-form-action -->
                     </div><!-- end form-content -->
                 </div><!-- end form-box -->
-                <div class="form-box">
-                    <div class="form-title-wrap">
-                        <h3 class="title">Select Your Payment Method</h3>
-                    </div><!-- form-title-wrap -->
-                    <div class="form-content">
-                        <div class="section-tab check-mark-tab text-center pb-4">
-                            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="credit-card-tab" data-bs-toggle="tab"
-                                        href="#credit-card" role="tab" aria-controls="credit-card"
-                                        aria-selected="false">
-                                        <i class="la la-check icon-element"></i>
-                                        <img src="assets/images/esewa.jpg" alt="" width="100px" height="100px">
-                                        <span class="d-block pt-2">Payment with Esewa</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="paypal-tab" data-bs-toggle="tab" href="#paypal" role="tab"
-                                        aria-controls="paypal" aria-selected="true">
-                                        <i class="la la-check icon-element"></i>
-                                        <img src="assets/images/ips.png" alt="" width="100px" height="100px">
-                                        <span class="d-block pt-2">Payment with ConnectIPS</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="payoneer-tab" data-bs-toggle="tab" href="#payoneer" role="tab"
-                                        aria-controls="payoneer" aria-selected="true">
-                                        <i class="la la-check icon-element"></i>
-                                        <img src="assets/images/global.png" alt="" width="100px" height="100px">
-                                        <span class="d-block pt-2">Payment with Global IME</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div><!-- end section-tab -->
-                        <div class="tab-content">
-                            <div class="tab-pane fade show active" id="credit-card" role="tabpanel"
-                                aria-labelledby="credit-card-tab">
-                                <div class="contact-form-action">
-                                    <form method="post">
-                                        <div class="row">
-                                            <div class="col-lg-6 responsive-column">
-                                                <div class="input-box">
-                                                    <label class="label-text">Email or Phone number</label>
-                                                    <div class="form-group">
-                                                        <span class="la la-envelope form-icon"></span>
-                                                        <input class="form-control" type="email" name="email"
-                                                            placeholder="Enter email address or phone number">
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col-lg-6 -->
-                                            <div class="col-lg-6 responsive-column">
-                                                <div class="input-box">
-                                                    <label class="label-text">Password</label>
-                                                    <div class="form-group">
-                                                        <span class="la la-lock form-icon"></span>
-                                                        <input class="form-control" type="text" name="text"
-                                                            placeholder="Enter password">
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col-lg-6 -->
-                                            <div class="col-lg-12">
-                                                <div class="btn-box">
-                                                    <button class="theme-btn" type="submit">Login Account</button>
-                                                </div>
-                                            </div><!-- end col-lg-12 -->
-                                        </div>
-                                    </form>
-                                </div><!-- end contact-form-action -->
-                            </div><!-- end tab-pane-->
-                            <div class="tab-pane fade" id="paypal" role="tabpanel" aria-labelledby="paypal-tab">
-                                <div class="contact-form-action">
-                                    <form method="post">
-                                        <div class="row">
-                                            <div class="col-lg-6 responsive-column">
-                                                <div class="input-box">
-                                                    <label class="label-text">Email Address</label>
-                                                    <div class="form-group">
-                                                        <span class="la la-envelope form-icon"></span>
-                                                        <input class="form-control" type="email" name="email"
-                                                            placeholder="Enter email address">
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col-lg-6 -->
-                                            <div class="col-lg-6 responsive-column">
-                                                <div class="input-box">
-                                                    <label class="label-text">Password</label>
-                                                    <div class="form-group">
-                                                        <span class="la la-lock form-icon"></span>
-                                                        <input class="form-control" type="text" name="text"
-                                                            placeholder="Enter password">
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col-lg-6 -->
-                                            <div class="col-lg-12">
-                                                <div class="btn-box">
-                                                    <button class="theme-btn" type="submit">Login Account</button>
-                                                </div>
-                                            </div><!-- end col-lg-12 -->
-                                        </div>
-                                    </form>
-                                </div><!-- end contact-form-action -->
-                            </div><!-- end tab-pane-->
-                            <div class="tab-pane fade" id="payoneer" role="tabpanel" aria-labelledby="payoneer-tab">
-                                <div class="contact-form-action">
-                                    <form method="post">
-                                        <div class="row">
-                                            <div class="col-lg-6 responsive-column">
-                                                <div class="input-box">
-                                                    <label class="label-text">Email Address</label>
-                                                    <div class="form-group">
-                                                        <span class="la la-envelope form-icon"></span>
-                                                        <input class="form-control" type="email" name="email"
-                                                            placeholder="Enter email address">
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col-lg-6 -->
-                                            <div class="col-lg-6 responsive-column">
-                                                <div class="input-box">
-                                                    <label class="label-text">Password</label>
-                                                    <div class="form-group">
-                                                        <span class="la la-lock form-icon"></span>
-                                                        <input class="form-control" type="text" name="text"
-                                                            placeholder="Enter password">
-                                                    </div>
-                                                </div>
-                                            </div><!-- end col-lg-6 -->
-                                            <div class="col-lg-12">
-                                                <div class="btn-box">
-                                                    <button class="theme-btn" type="submit">Login Account</button>
-                                                </div>
-                                            </div><!-- end col-lg-12 -->
-                                        </div>
-                                    </form>
-                                </div><!-- end contact-form-action -->
-                            </div><!-- end tab-pane-->
-                        </div><!-- end tab-content -->
-                    </div><!-- end form-content -->
-                </div><!-- end form-box -->
             </div><!-- end col-lg-8 -->
+
             <div class="col-lg-4">
                 <div class="form-box booking-detail-form">
                     <div class="form-title-wrap">
-                        <h3 class="title">Booking Details</h3>
+                        <h3 class="title">KTM to AUH</h3>
+                        <p class="card-meta">One way Flight</p>
                     </div><!-- end form-title-wrap -->
                     <div class="form-content">
                         <div class="card-item shadow-none radius-none mb-0">
-                            <div class="card-img pb-4">
+                            <div class="pb-4">
                                 <a href="flight-single.html" class="d-block">
-                                    <img src="assets/images/img26.jpg" alt="plane-img">
+                                    <img src="assets/images/flight-logo/air-arab.png" alt="plane-img">
                                 </a>
                             </div>
                             <div class="card-body p-0">
-                                <div class="d-flex justify-content-between">
-                                    <div>
-                                        <h3 class="card-title">Indianapolis to paris</h3>
-                                        <p class="card-meta">One way Flight</p>
-                                    </div>
-                                    <div>
-                                        <a href="flight-single.html" class="btn ml-1"><i class="la la-edit"
-                                                data-toggle="tooltip" data-placement="top" title="Edit"></i></a>
-                                    </div>
-                                </div>
-                                <div class="card-rating">
-                                    <span class="badge text-white">4.4/5</span>
-                                    <span class="review__text">Average</span>
-                                    <span class="rating__text">(30 Reviews)</span>
-                                </div>
                                 <div class="section-block"></div>
                                 <ul class="list-items list-items-2 list-items-flush py-2">
                                     <li class="font-size-15"><span class="w-auto d-block mb-n1"><i
-                                                class="la la-plane mr-1 font-size-17"></i>Take off</span>12 May 2020
+                                                class="la la-plane mr-1 font-size-17"></i>Take off</span>12 May
+                                        2020
                                         7:40am</li>
                                     <li class="font-size-15"><i
-                                            class="la la-clock-o mr-1 text-black font-size-17"></i>12hrs 40 min</li>
+                                            class="la la-clock-o mr-1 text-black font-size-17"></i>12hrs 40 min
+                                    </li>
                                     <li class="font-size-15"><span class="w-auto d-block mb-n1"><i
-                                                class="la la-plane mr-1 font-size-17"></i>Landing</span>13 May 2020
+                                                class="la la-plane mr-1 font-size-17"></i>Landing</span>13 May
+                                        2020
                                         8:40am</li>
-                                </ul>
-                                <h3 class="card-title pb-3">Order Details</h3>
-                                <div class="section-block"></div>
-                                <ul class="list-items list-items-2 py-3">
-                                    <li><span>Airline:</span>Delta</li>
-                                    <li><span>Flight Type:</span>Economy</li>
-                                    <li><span>Base Fare:</span>$240</li>
-                                    <li><span>Passengers:</span>2</li>
-                                </ul>
-                                <div class="section-block"></div>
-                                <ul class="list-items list-items-2 pt-3">
-                                    <li><span>Sub Total:</span>$240</li>
-                                    <li><span>Taxes And Fees:</span>$5</li>
-                                    <li><span>Total Price:</span>$245</li>
                                 </ul>
                             </div>
                         </div><!-- end card-item -->
@@ -611,10 +506,14 @@
                 </div><!-- end form-box -->
             </div><!-- end col-lg-4 -->
         </div><!-- end row -->
+        <div class="col-lg-12">
+            <div class="btn-box">
+                <a href="bookings.php" class="theme-btn" type="submit">Continue to Payment</button>
+            </div>
+        </div><!-- end col-lg-12 -->
     </div><!-- end container -->
 </section><!-- end booking-area -->
 <!-- ================================
     END BOOKING AREA
 ================================= -->
-
 <?php include("footer.php"); ?>
