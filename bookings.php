@@ -3,45 +3,72 @@
     START BOOKING AREA
 ================================= -->
 <section class="booking-area padding-top-100px">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <table class="table table-bordered border-success">
-                    <thead>
-                        <tr style="background-color: #0B87C7; color:white;">
-                            <th scope="col">First Name</th>
-                            <th scope="col">Last Name</th>
-                            <th scope="col">Email Address</th>
-                            <th scope="col">Phone Number</th>
-                            <th scope="col">Address</th>
-                            <th scope="col">Country Name</th>
-                            <th scope="col">Country Code</th>
-                            <th scope="col">Passport Number</th>
-                            <th scope="col">Passport Expiry Date</th>
-                        </tr>
-                    </thead>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <table class="table table-res">
                     <tbody>
                         <tr>
-                            <th scope="row">John</th>
-                            <td>Doe</td>
-                            <td>john@doe.com</td>
-                            <td>6523569859</td>
-                            <td>Kathmandu</td>
-                            <td>Nepal</td>
-                            <td>+977</td>
-                            <td>4125632569856</td>
-                            <td>2025 June</td>
+                            <th class="table-decoration" scope="col">First Name</th>
+                            <th scope="col">John</th>
                         </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Last Name</th>
+                            <th scope="col">Doe</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Email</th>
+                            <th scope="col">john@doe.com</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Contact</th>
+                            <th scope="col">9856325569</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <table class="table table-res">
+                    <tbody>
+                        <tr>
+                            <th class="table-decoration" scope="col">Address</th>
+                            <th scope="col">Kathmandu</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">County Name</th>
+                            <th scope="col">Nepal</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Country Code</th>
+                            <th scope="col">+977</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Passposrt Number</th>
+                            <th scope="col">4125235698569</th>
+                        </tr>
+                        <tr>
+                            <th class="table-decoration" scope="col">Passposrt Expiry </th>
+                            <th scope="col">2025/10/12</th>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
 </section>
+
 <section class="booking-area padding-top-100px padding-bottom-70px">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="form-box">
                     <div class="form-title-wrap">
                         <h3 class="title">Select Your Payment Method</h3>
@@ -154,12 +181,14 @@
                     </div><!-- end form-content -->
                 </div><!-- end form-box -->
             </div><!-- end col-lg-8 -->
-            <div class="col-lg-12">
-            <div class="btn-box">
-            <a href="booking.php" class="theme-btn margin-right-20px" type="submit">Edit Details</button>
-                <a href="success.php" class="theme-btn" type="submit">Continue to Payment</button>
-            </div>
-        </div><!-- end col-lg-12 -->
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="btn-box">
+                    <a href="booking.php" class="theme-btn margin-right-20px" type="submit">Edit Details</button>
+                        <a href="success.php" class="theme-btn" type="submit">Continue to Payment</button>
+                </div>
+            </div><!-- end col-lg-12 -->
+
         </div><!-- end row -->
     </div><!-- end container -->
 </section><!-- end booking-area -->

@@ -1,19 +1,22 @@
 <?php include("header.php"); ?>
+<!-- GIF AD Container Start -->
 <div class="container">
     <div class="row">
         <img src="assets/images/connect-ips.gif">
     </div>
-
 </div>
-<div class="container sticky-search">
+<!-- GIF AD Container Ends -->
+
+
+<div class="container">
     <div class="row search-result-top">
         <!-- Date on the left -->
-        <div class="col-md-3">
+        <div class="col-md-3 col-lg-3 col-4 col-sm-4">
             <h3 class="font-size-17 padding-top-10px card-title">
                 <a href="#" class="theme-btn w-60 text-center">
                     <i class="la la-angle-double-left"></i>
                     Dec 3, 2021
-                </a>
+                </a><br>
                 <a class="modify-search font-size-18" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <p id="headingOne" class="padding-top-10px">
@@ -24,27 +27,27 @@
             </h3>
         </div>
         <!-- Flight detail on the center -->
-        <div class="col-md-6">
+        <div class="col-md-6 col-lg-6 col-4 col-sm-4">
             <!-- <h2 class="text-center padding-top-10px font-size-20 font-weight-bold red">One Way Flight</h2> -->
             <div class="row">
-                <div class="col-md-4">
-                    <h3 class="font-size-17 padding-top-10px card-title font-weight-bold">Kathmandu</h3>
-                    <h3 class="font-size-15 font-weight-medium mb-0">
+                <div class="col-md-4 col-sm-12 col-lg-4 text-res">
+                    <h3 class="font-size-17 padding-top-10px card-title text-center font-weight-bold">Kathmandu</h3>
+                    <h3 class="font-size-15 font-weight-medium mb-0 text-center">
                         <span class="flex-shirnk-0 mr-2 take-off">
                             <i class="la la-plane"></i>Take off</h3>
                     </span>
                 </div>
-                <div class="col-md-4 text-center">
-                    <h3 class="font-size-17 padding-top-10px card-title font-weight-bold">Passenger</h3>
-                    <h3 class="font-size-15 font-weight-medium mb-0">
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <h3 class=" text-center font-size-17 padding-top-10px card-title font-weight-bold">Passenger</h3>
+                    <h3 class="font-size-15 text-center font-weight-medium mb-0">
                         <span class="flex-shirnk-0 mr-2">
                             <i class="la la-user"></i>1 ADT, 2 CHILD</h3>
                     </span>
                 </div>
 
-                <div class="col-md-4 text-center">
-                    <h3 class="font-size-17 padding-top-10px card-title font-weight-bold">Abhu Dhabi</h3>
-                    <h3 class="font-size-15 font-weight-medium mb-0">
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <h3 class="text-center font-size-17 padding-top-10px card-title font-weight-bold">Abhu Dhabi</h3>
+                    <h3 class="font-size-15 text-center font-weight-medium mb-0">
                         <span class="flex-shirnk-0 mr-2 landing">
                             <i class="la la-plane"></i>Landing</h3>
                     </span>
@@ -52,18 +55,20 @@
             </div>
         </div>
         <!-- Date on Right -->
-        <div class="col-md-3">
-            <div class="make-right">
-                <h3 align="right" class="font-size-17 padding-top-10px card-title">
-                        <a href="#" class="theme-btn w-50 text-center">Dec 5, 2021<i
-                                class="la la-angle-double-right"></i></a>
-
-                    <h2 align="right" id="headingTwo">
-                        <a class="modify-search font-size-18" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <i class="la la-bars"></i>Filters
-                            </a>
-                    </h2>
+        <div class="col-md-3 col-lg-3 col-4 col-sm-4">
+            <div class="shift-right">
+                <h3 class="font-size-17 padding-top-10px card-title">
+                    <a href="#" class="theme-btn w-60 text-center">
+                        Dec 5, 2021
+                        <i class="la la-angle-double-right"></i>
+                    </a></br>
+                    <a class="modify-search font-size-18" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <p id="headingOne" class="padding-top-10px">
+                            <i class="la la-bars"></i>
+                            Filters
+                        </p>
+                    </a>
                 </h3>
             </div>
         </div>
@@ -84,7 +89,7 @@
                     <div class="search-fields-container mt-4">
                         <div class="contact-form-action">
                             <form action="#" class="row align-items-center">
-                                <div class="col-lg-2 pr-0">
+                                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pr-0">
                                     <div class="input-box">
                                         <label class="label-text">Flying from</label>
                                         <div class="form-group">
@@ -93,7 +98,7 @@
                                         </div>
                                     </div>
                                 </div><!-- end col-lg-3 -->
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                                     <div class="input-box">
                                         <label class="label-text">Flying to</label>
                                         <div class="form-group">
@@ -102,7 +107,7 @@
                                         </div>
                                     </div>
                                 </div><!-- end col-lg-3 -->
-                                <div class="col-lg-2 pr-0">
+                                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pr-0">
                                     <div class="input-box">
                                         <label class="label-text">Departing</label>
                                         <div class="form-group">
@@ -112,7 +117,7 @@
                                         </div>
                                     </div>
                                 </div><!-- end col-lg-3 -->
-                                <div class="col-lg-2 pr-0">
+                                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pr-0">
                                     <div class="input-box">
                                         <label class="label-text">Passengers</label>
                                         <div class="form-group">
@@ -172,7 +177,7 @@
                                         </div>
                                     </div>
                                 </div><!-- end col-lg-3 -->
-                                <div class="col-lg-2 pr-0">
+                                <div class="col-lg-2 col-md-4 col-sm-6 col-6 pr-0">
                                     <div class="input-box">
                                         <label class="label-text">Coach</label>
                                         <div class="form-group select-contain select-contain-shadow w-auto">
@@ -184,7 +189,7 @@
                                         </div>
                                     </div>
                                 </div><!-- end col-lg-3 -->
-                                <div class="col-lg-2">
+                                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                                     <a href="results.php" class="theme-btn w-100 text-center margin-top-20px">Search
                                         Again</a>
                                 </div>
@@ -390,591 +395,1151 @@
     <div class="container padding-top-10px">
         <div class="row">
             <!-- Left side search result grid -->
-            <div class="col-md-10">
-                <div class="responsive-column">
-                    <div class="row card-item flight-card flight--card">
-                        <div class="col-md-2">
-                            <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                        </div>
+            <div class="col-md-9 col-lg-9 col-sm-12 col-12">
+                <div class="row card-item flight--card">
+                    <div class="col-md-2 col-sm-12 col-12 flight-image-none">
+                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                    </div>
 
-                        <div class="col-md-2 col-sm-4 card-top-title justify-content-between">
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 take-off">
+                                <i class="la la-plane"></i>Take off</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-title">Refundable</p>
+                    </div>
 
-                            <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
-                            <h3 class="font-size-15 font-weight-medium mb-0">
-                                <span class="flex-shirnk-0 mr-2 take-off">
-                                    <i class="la la-plane"></i>Take off</h3>
-                            </span>
-                            <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
-                            <p class="font-size-14 card-title">Refundable</p>
+                    <div class="col-md-3 col-sm-4 col-4 light-details">
+                        <p class="font-size-14 text-center padding-bottom-15px"><i
+                                class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
+                            30 Minutes</p>
+                        <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
+                                alt="Hand Carry" width="18px" height="18px"> 7kg
+                            <i class="la la-luggage-cart red"></i> 30Kg</p>
+                    </div>
 
-                        </div>
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 landing">
+                                <i class="la la-plane"></i>Landing</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-meta card-title">1 Stop</p>
+                    </div>
 
-                        <div class="col-md-3 light-details">
+                    <div class="col-md-3">
+                        <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Details
+                            </a>
+                        </h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
+                    </div>
 
-                            <p class="font-size-14 text-center padding-bottom-15px"><i
-                                    class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
-                                30 Minutes</p>
-                            <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
-                                    alt="Hand Carry" width="18px" height="18px"> 7kg
-                                <i class="la la-luggage-cart red"></i> 30Kg</p>
-
-
-                        </div>
-
-                        <div class="col-md-2 card-top-title justify-content-between">
-
-                            <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
-                            <h3 class="font-size-15 font-weight-medium mb-0">
-                                <span class="flex-shirnk-0 mr-2 landing">
-                                    <i class="la la-plane"></i>Landing</h3>
-                            </span>
-                            <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
-                            <p class="font-size-14 card-meta card-title">1 Stop</p>
-                        </div>
-
-                        <div class="col-md-3">
-                            <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
-                            <h2 class="accordion-header" id="headingThree">
-                                <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Details
-                                </a>
-                            </h2>
-                            <h2 class="accordion-header" id="headingThree">
-                                <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
-                            </h2>
-                        </div>
-
-                        <!-- Flight Details -->
-                        <div id="collapseThree" class="accordion-collapse collapse background full-width"
-                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
-                            </h3>
-                            <div class="accordion-body">
-                                <nav class="full-width">
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                            aria-selected="true">Flight Details</button>
-                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-profile" type="button" role="tab"
-                                            aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
-                                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-contact" type="button" role="tab"
-                                            aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
-                                    </div>
-                                </nav>
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                        aria-labelledby="nav-home-tab">
-                                        <div id="description" class="page-scroll">
-
-                                            <div class="section-block"></div>
-                                            <div class="single-content-item py-4">
-                                                <div class="row padding-top-10px">
-                                                    <div class="col-lg-3 col-sm-3 padding-bottom-20px">
-                                                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Take off</h3>
-                                                            <span class="font-size-13">12 Jun 2020</span>
-                                                            <span class="font-size-25">7:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight Duration
-                                                            </h3>
-                                                            <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
-                                                            <span class="font-size-20 mt-n2">1H 40M</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Landing
-                                                            </h3>
-                                                            <span class="font-size-13">13 Jun 2020</span>
-                                                            <span class="font-size-25">5:50 am</span>
-
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    
-
-                                                </div><!-- end row -->
-                                                <div class="col-lg-12 white">
-                                                        <div class="single-feature-titles text-center">
-                                                            <h3 class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">Flight Overlay time: <span
-                                                                    class="font-size-15 d-inline-block ml-1 text-white">13
-                                                                    Hours 40 min</span></h3>
-                                                        </div>
-                                                    </div><!-- end col-lg-12 -->
-                                                <div class="row padding-top-10px">
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Take off</h3>
-                                                            <span class="font-size-13">12 Jun 2020</span>
-                                                            <span class="font-size-25">7:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Overlay
-                                                                time
-                                                            </h3>
-                                                            <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
-                                                            <span class="font-size-20 mt-n2">1H 40M</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Landing
-                                                            </h3>
-                                                            <span class="font-size-13">13 Jun 2020</span>
-                                                            <span class="font-size-25">5:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                </div>
-                                            </div><!-- end single-content-item -->
-                                        </div><!-- end description -->
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                        aria-labelledby="nav-profile-tab">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">Type</th>
-                                                    <th scope="col">Base Fare (Per Person)</th>
-                                                    <th scope="col">Tax</th>
-                                                    <th scope="col">Total</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">ADT*1</th>
-                                                    <td>NRP 38220*1</td>
-                                                    <td>NRP 17237*1</td>
-                                                    <td>NRP 55457</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">ADT*1</th>
-                                                    <td>NRP 38220*1</td>
-                                                    <td>NRP 17237*1</td>
-                                                    <td>NRP 55457</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td colspan="3"><strong>Total Fare</strong>
-                                                    </td>
-                                                    <td><strong>NRP 110914</strong></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel"
-                                        aria-labelledby="nav-contact-tab">...</div>
+                    <!-- Flight Details -->
+                    <div id="collapseThree" class="accordion-collapse collapse background full-width"
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
+                        </h3>
+                        <div class="accordion-body">
+                            <nav class="full-width">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Flight Details</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
                                 </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div id="description" class="page-scroll">
+
+                                        <div class="section-block"></div>
+                                        <div class="single-content-item py-4">
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3 padding-bottom-20px">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Duration
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+
+
+                                            </div><!-- end row -->
+                                            <div class="col-lg-12 white">
+                                                <div class="single-feature-titles text-center">
+                                                    <h3
+                                                        class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">
+                                                        Flight Overlay time: <span
+                                                            class="font-size-15 d-inline-block ml-1 text-white">13
+                                                            Hours 40 min</span></h3>
+                                                </div>
+                                            </div><!-- end col-lg-12 -->
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Overlay
+                                                            time
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                            </div>
+                                        </div><!-- end single-content-item -->
+                                    </div><!-- end description -->
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
                             </div>
                         </div>
-                    </div><!-- end col-lg-4 -->
+                    </div>
+                </div><!-- end col-lg-4 -->
 
-                    <div class="row card-item flight-card flight--card">
-                        <div class="col-md-2">
-                            <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                        </div>
+                <div class="row card-item flight--card">
+                    <div class="col-md-2 col-sm-12 col-12 flight-image-none">
+                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                    </div>
 
-                        <div class="col-md-2 col-sm-4 card-top-title justify-content-between">
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 take-off">
+                                <i class="la la-plane"></i>Take off</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-title">Refundable</p>
+                    </div>
 
-                            <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
-                            <h3 class="font-size-15 font-weight-medium mb-0">
-                                <span class="flex-shirnk-0 mr-2 take-off">
-                                    <i class="la la-plane"></i>Take off</h3>
-                            </span>
-                            <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
-                            <p class="font-size-14 card-title">Refundable</p>
+                    <div class="col-md-3 col-sm-4 col-4 light-details">
+                        <p class="font-size-14 text-center padding-bottom-15px"><i
+                                class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
+                            30 Minutes</p>
+                        <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
+                                alt="Hand Carry" width="18px" height="18px"> 7kg
+                            <i class="la la-luggage-cart red"></i> 30Kg</p>
+                    </div>
 
-                        </div>
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 landing">
+                                <i class="la la-plane"></i>Landing</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-meta card-title">1 Stop</p>
+                    </div>
 
-                        <div class="col-md-3 light-details">
+                    <div class="col-md-3">
+                        <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Details
+                            </a>
+                        </h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
+                    </div>
 
-                            <p class="font-size-14 text-center padding-bottom-15px"><i
-                                    class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
-                                30 Minutes</p>
-                            <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
-                                    alt="Hand Carry" width="18px" height="18px"> 7kg
-                                <i class="la la-luggage-cart red"></i> 30Kg</p>
-
-
-                        </div>
-
-                        <div class="col-md-2 card-top-title justify-content-between">
-
-                            <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
-                            <h3 class="font-size-15 font-weight-medium mb-0">
-                                <span class="flex-shirnk-0 mr-2 landing">
-                                    <i class="la la-plane"></i>Landing</h3>
-                            </span>
-                            <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
-                            <p class="font-size-14 card-meta card-title">1 Stop</p>
-                        </div>
-
-                        <div class="col-md-3">
-                            <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
-                            <h2 class="accordion-header" id="headingThree">
-                                <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Details
-                                </a>
-                            </h2>
-                            <h2 class="accordion-header" id="headingThree">
-                                <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
-                            </h2>
-                        </div>
-
-                        <!-- Flight Details -->
-                        <div id="collapseThree" class="accordion-collapse collapse background full-width"
-                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
-                            </h3>
-                            <div class="accordion-body">
-                                <nav class="full-width">
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                            aria-selected="true">Flight Details</button>
-                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-profile" type="button" role="tab"
-                                            aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
-                                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-contact" type="button" role="tab"
-                                            aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
-                                    </div>
-                                </nav>
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                        aria-labelledby="nav-home-tab">
-                                        <div id="description" class="page-scroll">
-
-                                            <div class="section-block"></div>
-                                            <div class="single-content-item py-4">
-                                                <div class="row padding-top-10px">
-                                                    <div class="col-lg-3 col-sm-3 padding-bottom-20px">
-                                                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Take off</h3>
-                                                            <span class="font-size-13">12 Jun 2020</span>
-                                                            <span class="font-size-25">7:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight Duration
-                                                            </h3>
-                                                            <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
-                                                            <span class="font-size-20 mt-n2">1H 40M</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Landing
-                                                            </h3>
-                                                            <span class="font-size-13">13 Jun 2020</span>
-                                                            <span class="font-size-25">5:50 am</span>
-
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    
-
-                                                </div><!-- end row -->
-                                                <div class="col-lg-12 white">
-                                                        <div class="single-feature-titles text-center">
-                                                            <h3 class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">Flight Overlay time: <span
-                                                                    class="font-size-15 d-inline-block ml-1 text-white">13
-                                                                    Hours 40 min</span></h3>
-                                                        </div>
-                                                    </div><!-- end col-lg-12 -->
-                                                <div class="row padding-top-10px">
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Take off</h3>
-                                                            <span class="font-size-13">12 Jun 2020</span>
-                                                            <span class="font-size-25">7:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Overlay
-                                                                time
-                                                            </h3>
-                                                            <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
-                                                            <span class="font-size-20 mt-n2">1H 40M</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Landing
-                                                            </h3>
-                                                            <span class="font-size-13">13 Jun 2020</span>
-                                                            <span class="font-size-25">5:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                </div>
-                                            </div><!-- end single-content-item -->
-                                        </div><!-- end description -->
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                        aria-labelledby="nav-profile-tab">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">Type</th>
-                                                    <th scope="col">Base Fare (Per Person)</th>
-                                                    <th scope="col">Tax</th>
-                                                    <th scope="col">Total</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">ADT*1</th>
-                                                    <td>NRP 38220*1</td>
-                                                    <td>NRP 17237*1</td>
-                                                    <td>NRP 55457</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">ADT*1</th>
-                                                    <td>NRP 38220*1</td>
-                                                    <td>NRP 17237*1</td>
-                                                    <td>NRP 55457</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td colspan="3"><strong>Total Fare</strong>
-                                                    </td>
-                                                    <td><strong>NRP 110914</strong></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel"
-                                        aria-labelledby="nav-contact-tab">...</div>
+                    <!-- Flight Details -->
+                    <div id="collapseThree" class="accordion-collapse collapse background full-width"
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
+                        </h3>
+                        <div class="accordion-body">
+                            <nav class="full-width">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Flight Details</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
                                 </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div id="description" class="page-scroll">
+
+                                        <div class="section-block"></div>
+                                        <div class="single-content-item py-4">
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3 padding-bottom-20px">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Duration
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+
+
+                                            </div><!-- end row -->
+                                            <div class="col-lg-12 white">
+                                                <div class="single-feature-titles text-center">
+                                                    <h3
+                                                        class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">
+                                                        Flight Overlay time: <span
+                                                            class="font-size-15 d-inline-block ml-1 text-white">13
+                                                            Hours 40 min</span></h3>
+                                                </div>
+                                            </div><!-- end col-lg-12 -->
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Overlay
+                                                            time
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                            </div>
+                                        </div><!-- end single-content-item -->
+                                    </div><!-- end description -->
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
                             </div>
                         </div>
-                    </div><!-- end col-lg-4 -->
+                    </div>
+                </div><!-- end col-lg-4 -->
 
-                    <div class="row card-item flight-card flight--card">
-                        <div class="col-md-2">
-                            <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                        </div>
+                <div class="row card-item flight--card">
+                    <div class="col-md-2 col-sm-12 col-12 flight-image-none">
+                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                    </div>
 
-                        <div class="col-md-2 col-sm-4 card-top-title justify-content-between">
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 take-off">
+                                <i class="la la-plane"></i>Take off</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-title">Refundable</p>
+                    </div>
 
-                            <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
-                            <h3 class="font-size-15 font-weight-medium mb-0">
-                                <span class="flex-shirnk-0 mr-2 take-off">
-                                    <i class="la la-plane"></i>Take off</h3>
-                            </span>
-                            <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
-                            <p class="font-size-14 card-title">Refundable</p>
+                    <div class="col-md-3 col-sm-4 col-4 light-details">
+                        <p class="font-size-14 text-center padding-bottom-15px"><i
+                                class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
+                            30 Minutes</p>
+                        <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
+                                alt="Hand Carry" width="18px" height="18px"> 7kg
+                            <i class="la la-luggage-cart red"></i> 30Kg</p>
+                    </div>
 
-                        </div>
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 landing">
+                                <i class="la la-plane"></i>Landing</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-meta card-title">1 Stop</p>
+                    </div>
 
-                        <div class="col-md-3 light-details">
+                    <div class="col-md-3">
+                        <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Details
+                            </a>
+                        </h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
+                    </div>
 
-                            <p class="font-size-14 text-center padding-bottom-15px"><i
-                                    class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
-                                30 Minutes</p>
-                            <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
-                                    alt="Hand Carry" width="18px" height="18px"> 7kg
-                                <i class="la la-luggage-cart red"></i> 30Kg</p>
-
-
-                        </div>
-
-                        <div class="col-md-2 card-top-title justify-content-between">
-
-                            <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
-                            <h3 class="font-size-15 font-weight-medium mb-0">
-                                <span class="flex-shirnk-0 mr-2 landing">
-                                    <i class="la la-plane"></i>Landing</h3>
-                            </span>
-                            <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
-                            <p class="font-size-14 card-meta card-title">1 Stop</p>
-                        </div>
-
-                        <div class="col-md-3">
-                            <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
-                            <h2 class="accordion-header" id="headingThree">
-                                <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Details
-                                </a>
-                            </h2>
-                            <h2 class="accordion-header" id="headingThree">
-                                <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
-                            </h2>
-                        </div>
-
-                        <!-- Flight Details -->
-                        <div id="collapseThree" class="accordion-collapse collapse background full-width"
-                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
-                            </h3>
-                            <div class="accordion-body">
-                                <nav class="full-width">
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                                            aria-selected="true">Flight Details</button>
-                                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-profile" type="button" role="tab"
-                                            aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
-                                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-contact" type="button" role="tab"
-                                            aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
-                                    </div>
-                                </nav>
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                        aria-labelledby="nav-home-tab">
-                                        <div id="description" class="page-scroll">
-
-                                            <div class="section-block"></div>
-                                            <div class="single-content-item py-4">
-                                                <div class="row padding-top-10px">
-                                                    <div class="col-lg-3 col-sm-3 padding-bottom-20px">
-                                                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Take off</h3>
-                                                            <span class="font-size-13">12 Jun 2020</span>
-                                                            <span class="font-size-25">7:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight Duration
-                                                            </h3>
-                                                            <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
-                                                            <span class="font-size-20 mt-n2">1H 40M</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Landing
-                                                            </h3>
-                                                            <span class="font-size-13">13 Jun 2020</span>
-                                                            <span class="font-size-25">5:50 am</span>
-
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    
-
-                                                </div><!-- end row -->
-                                                <div class="col-lg-12 white">
-                                                        <div class="single-feature-titles text-center">
-                                                            <h3 class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">Flight Overlay time: <span
-                                                                    class="font-size-15 d-inline-block ml-1 text-white">13
-                                                                    Hours 40 min</span></h3>
-                                                        </div>
-                                                    </div><!-- end col-lg-12 -->
-                                                <div class="row padding-top-10px">
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Take off</h3>
-                                                            <span class="font-size-13">12 Jun 2020</span>
-                                                            <span class="font-size-25">7:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Overlay
-                                                                time
-                                                            </h3>
-                                                            <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
-                                                            <span class="font-size-20 mt-n2">1H 40M</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                    <div class="col-lg-3 col-sm-3">
-                                                        <div class="single-feature-titles text-center mb-3">
-                                                            <h3 class="title font-size-15 font-weight-medium">Flight
-                                                                Landing
-                                                            </h3>
-                                                            <span class="font-size-13">13 Jun 2020</span>
-                                                            <span class="font-size-25">5:50 am</span>
-                                                        </div>
-                                                    </div><!-- end col-lg-4 -->
-                                                </div>
-                                            </div><!-- end single-content-item -->
-                                        </div><!-- end description -->
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel"
-                                        aria-labelledby="nav-profile-tab">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">Type</th>
-                                                    <th scope="col">Base Fare (Per Person)</th>
-                                                    <th scope="col">Tax</th>
-                                                    <th scope="col">Total</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">ADT*1</th>
-                                                    <td>NRP 38220*1</td>
-                                                    <td>NRP 17237*1</td>
-                                                    <td>NRP 55457</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">ADT*1</th>
-                                                    <td>NRP 38220*1</td>
-                                                    <td>NRP 17237*1</td>
-                                                    <td>NRP 55457</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td colspan="3"><strong>Total Fare</strong>
-                                                    </td>
-                                                    <td><strong>NRP 110914</strong></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel"
-                                        aria-labelledby="nav-contact-tab">...</div>
+                    <!-- Flight Details -->
+                    <div id="collapseThree" class="accordion-collapse collapse background full-width"
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
+                        </h3>
+                        <div class="accordion-body">
+                            <nav class="full-width">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Flight Details</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
                                 </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div id="description" class="page-scroll">
+
+                                        <div class="section-block"></div>
+                                        <div class="single-content-item py-4">
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3 padding-bottom-20px">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Duration
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+
+
+                                            </div><!-- end row -->
+                                            <div class="col-lg-12 white">
+                                                <div class="single-feature-titles text-center">
+                                                    <h3
+                                                        class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">
+                                                        Flight Overlay time: <span
+                                                            class="font-size-15 d-inline-block ml-1 text-white">13
+                                                            Hours 40 min</span></h3>
+                                                </div>
+                                            </div><!-- end col-lg-12 -->
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Overlay
+                                                            time
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                            </div>
+                                        </div><!-- end single-content-item -->
+                                    </div><!-- end description -->
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
                             </div>
                         </div>
-                    </div><!-- end col-lg-4 -->
-                </div>
+                    </div>
+                </div><!-- end col-lg-4 -->
+
+                <div class="row card-item flight--card">
+                    <div class="col-md-2 col-sm-12 col-12 flight-image-none">
+                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 take-off">
+                                <i class="la la-plane"></i>Take off</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-title">Refundable</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 col-4 light-details">
+                        <p class="font-size-14 text-center padding-bottom-15px"><i
+                                class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
+                            30 Minutes</p>
+                        <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
+                                alt="Hand Carry" width="18px" height="18px"> 7kg
+                            <i class="la la-luggage-cart red"></i> 30Kg</p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 landing">
+                                <i class="la la-plane"></i>Landing</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-meta card-title">1 Stop</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Details
+                            </a>
+                        </h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
+                    </div>
+
+                    <!-- Flight Details -->
+                    <div id="collapseThree" class="accordion-collapse collapse background full-width"
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
+                        </h3>
+                        <div class="accordion-body">
+                            <nav class="full-width">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Flight Details</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div id="description" class="page-scroll">
+
+                                        <div class="section-block"></div>
+                                        <div class="single-content-item py-4">
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3 padding-bottom-20px">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Duration
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+
+
+                                            </div><!-- end row -->
+                                            <div class="col-lg-12 white">
+                                                <div class="single-feature-titles text-center">
+                                                    <h3
+                                                        class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">
+                                                        Flight Overlay time: <span
+                                                            class="font-size-15 d-inline-block ml-1 text-white">13
+                                                            Hours 40 min</span></h3>
+                                                </div>
+                                            </div><!-- end col-lg-12 -->
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Overlay
+                                                            time
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                            </div>
+                                        </div><!-- end single-content-item -->
+                                    </div><!-- end description -->
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end col-lg-4 -->
+
+                <div class="row card-item flight--card">
+                    <div class="col-md-2 col-sm-12 col-12 flight-image-none">
+                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 take-off">
+                                <i class="la la-plane"></i>Take off</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-title">Refundable</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 col-4 light-details">
+                        <p class="font-size-14 text-center padding-bottom-15px"><i
+                                class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
+                            30 Minutes</p>
+                        <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
+                                alt="Hand Carry" width="18px" height="18px"> 7kg
+                            <i class="la la-luggage-cart red"></i> 30Kg</p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 landing">
+                                <i class="la la-plane"></i>Landing</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-meta card-title">1 Stop</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Details
+                            </a>
+                        </h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
+                    </div>
+
+                    <!-- Flight Details -->
+                    <div id="collapseThree" class="accordion-collapse collapse background full-width"
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
+                        </h3>
+                        <div class="accordion-body">
+                            <nav class="full-width">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Flight Details</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div id="description" class="page-scroll">
+
+                                        <div class="section-block"></div>
+                                        <div class="single-content-item py-4">
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3 padding-bottom-20px">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Duration
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+
+
+                                            </div><!-- end row -->
+                                            <div class="col-lg-12 white">
+                                                <div class="single-feature-titles text-center">
+                                                    <h3
+                                                        class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">
+                                                        Flight Overlay time: <span
+                                                            class="font-size-15 d-inline-block ml-1 text-white">13
+                                                            Hours 40 min</span></h3>
+                                                </div>
+                                            </div><!-- end col-lg-12 -->
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Overlay
+                                                            time
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                            </div>
+                                        </div><!-- end single-content-item -->
+                                    </div><!-- end description -->
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end col-lg-4 -->
+
+                <div class="row card-item flight--card">
+                    <div class="col-md-2 col-sm-12 col-12 flight-image-none">
+                        <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Kathmandu</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 take-off">
+                                <i class="la la-plane"></i>Take off</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Wed Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-title">Refundable</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 col-4 light-details">
+                        <p class="font-size-14 text-center padding-bottom-15px"><i
+                                class="la la-clock clock"></i><br><span class="color-text-2 mr-1"></span> 12 Hours
+                            30 Minutes</p>
+                        <p class="font-size-17 card-title text-center"><img src="assets/images/shopping-bag.png"
+                                alt="Hand Carry" width="18px" height="18px"> 7kg
+                            <i class="la la-luggage-cart red"></i> 30Kg</p>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-4 card-top-title justify-content-between">
+                        <h3 class="font-size-17 padding-top-10px card-title">Abhu Dhabi</h3>
+                        <h3 class="font-size-15 font-weight-medium mb-0">
+                            <span class="flex-shirnk-0 mr-2 landing">
+                                <i class="la la-plane"></i>Landing</h3>
+                        </span>
+                        <p class="font-size-14 card-meta">Thu Nov 12 6:50 AM</p>
+                        <p class="font-size-14 card-meta card-title">1 Stop</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h2 class="font-size-120 font-weight-bold card-title text-center">USD 550/per</h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a class="btn-primary w-50 margin-bottom-10px" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Details
+                            </a>
+                        </h2>
+                        <h2 class="accordion-header" id="headingThree">
+                            <a href="booking.php" class="btn-primary w-50 margin-bottom-10px">Book Now</a>
+                        </h2>
+                    </div>
+
+                    <!-- Flight Details -->
+                    <div id="collapseThree" class="accordion-collapse collapse background full-width"
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <h3 class="title font-size-26 padding-top-10px">Kathmandu To Abhu Dhabi
+                        </h3>
+                        <div class="accordion-body">
+                            <nav class="full-width">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Flight Details</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">Fare Breakdown</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Fare Rules</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div id="description" class="page-scroll">
+
+                                        <div class="section-block"></div>
+                                        <div class="single-content-item py-4">
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3 padding-bottom-20px">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Duration
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+
+
+                                            </div><!-- end row -->
+                                            <div class="col-lg-12 white">
+                                                <div class="single-feature-titles text-center">
+                                                    <h3
+                                                        class="title font-size-15 font-weight-medium text-white btn btn-danger w-100">
+                                                        Flight Overlay time: <span
+                                                            class="font-size-15 d-inline-block ml-1 text-white">13
+                                                            Hours 40 min</span></h3>
+                                                </div>
+                                            </div><!-- end col-lg-12 -->
+                                            <div class="row padding-top-10px">
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <img src="assets/images/airline-img7.png" alt="flight-logo-img">
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Take off</h3>
+                                                        <span class="font-size-13">12 Jun 2020</span>
+                                                        <span class="font-size-25">7:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Overlay
+                                                            time
+                                                        </h3>
+                                                        <!-- <i class="la la-clock-o text-color font-size-22"></i> -->
+                                                        <span class="font-size-20 mt-n2">1H 40M</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                                <div class="col-lg-3 col-sm-3">
+                                                    <div class="single-feature-titles text-center mb-3">
+                                                        <h3 class="title font-size-15 font-weight-medium">Flight
+                                                            Landing
+                                                        </h3>
+                                                        <span class="font-size-13">13 Jun 2020</span>
+                                                        <span class="font-size-25">5:50 am</span>
+                                                    </div>
+                                                </div><!-- end col-lg-4 -->
+                                            </div>
+                                        </div><!-- end single-content-item -->
+                                    </div><!-- end description -->
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Base Fare (Per Person)</th>
+                                                <th scope="col">Tax</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ADT*1</th>
+                                                <td>NRP 38220*1</td>
+                                                <td>NRP 17237*1</td>
+                                                <td>NRP 55457</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3"><strong>Total Fare</strong>
+                                                </td>
+                                                <td><strong>NRP 110914</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end col-lg-4 -->
             </div>
             <!-- Left Side search grid result end -->
-            
-            <div class="col-md-2 fixed-sticky">
+
+
+            <div class="col-md-3 col-lg-3 ad-img-res">
                 <ul class="shadow-background">
                     <li class="padding-bottom-10px">
                         <img class="img-fluid" src="assets/images/banner-1.jpg" alt="">

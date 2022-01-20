@@ -3,37 +3,56 @@
     START BOOKING AREA
 ================================= -->
 <section class="booking-area padding-top-100px">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Flight Name</th>
-                            <th scope="col">Flight Type</th>
-                            <th scope="col">Depart from</th>
-                            <th scope="col">Depart time</th>
-                            <th scope="col">Arrive on</th>
-                            <th scope="col">Arrival Time</th>
-                            <th scope="col">Passangers</th>
-                            <th scope="col">Base Fare</th>
-                            <th scope="col">Tax</th>
-                            <th scope="col">Total Fare</th>
-                        </tr>
-                    </thead>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <table class="table table-res">
                     <tbody>
                         <tr>
-                            <th scope="row">Air Arabia</th>
-                            <td>First Class</td>
-                            <td>KTM</td>
-                            <td>12 May 7:40 AM</td>
-                            <td>AUH</td>
-                            <td>13 May 8:40 AM</td>
-                            <td>1 Adult 1 children</td>
-                            <td>$ 500</td>
-                            <td>$ 150</td>
-                            <td>$ 650</td>
+                            <th class="table-decoration" scope="col">Flight Name</th>
+                            <th scope="col">Air Arabia</th>
                         </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Flight Type</th>
+                            <th scope="col">First Class</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Departure</th>
+                            <th scope="col">KTM (12 May 7:40 AM)</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Arrival</th>
+                            <th scope="col">AUH (13 May 8:40 AM)</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <table class="table table-res">
+                    <tbody>
+                        <tr>
+                            <th class="table-decoration" scope="col">Passangers</th>
+                            <th scope="col">1 Adult, 1 Children</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Base Fare</th>
+                            <th scope="col">$500</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Tax</th>
+                            <th scope="col">$150</th>
+                        </tr>
+
+                        <tr>
+                            <th class="table-decoration" scope="col">Total Fare</th>
+                            <th scope="col">$650</th>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>

@@ -877,6 +877,7 @@ body {
 
 .theme-btn:hover {
     background-color: #fff;
+    border:3px solid#C82127 ;
     color: #287dfa
 }
 
@@ -2948,7 +2949,7 @@ body {
 
 .contact-form-action .form-group .form-icon {
     position: absolute;
-    top: 15px;
+    top: 11px;
     left: 15px;
     color: #5d646d;
     font-size: 18px
@@ -2980,7 +2981,7 @@ body {
 .contact-form-action .form-control {
     height: auto;
     line-height: inherit;
-    padding: 10px 20px 10px 40px;
+    padding: 5px 5px 5px 46px;
     font-size: 13px;
     color: #0d233e;
     border-color: rgba(128, 137, 150, .2);
@@ -7065,7 +7066,7 @@ body {
     width: 100%;
     z-index: 2;
     padding-top: 110px;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
     background-size: cover;
     background-position: center
 }
@@ -7096,7 +7097,7 @@ body {
     fill: #fff
 }
 
-.hero-bg {
+/* .hero-bg {
     background-image: url(../images/hero-bg.jpg)
 }
 
@@ -7114,11 +7115,11 @@ body {
 
 .hero-bg-5 {
     background-image: url(../images/hero-bg5.jpg)
-}
+} */
 
 .hero-bg-6 {
     background-image: url(../images/bg-1.jpg);
-    height:500px;
+    /* height:400px; */
 }
 
 .hero-content .section-heading .sec__desc {
@@ -7134,8 +7135,9 @@ body {
 
 .hero-content .section-heading .sec__title {
     font-size: 50px;
-    margin-bottom: 0;
+    margin-bottom: -24px;
     color: #170349;
+    margin-top: -34px;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -7359,7 +7361,7 @@ body {
 
 .hero-wrapper6 .hero-box {
     padding-top: 100px;
-    padding-bottom: 160px
+    /* padding-bottom: 160px */
 }
 
 .hero-wrapper7 .hero-box {
@@ -11608,19 +11610,29 @@ body {
         text-align: center !important
     }
 }
+
 .icons-display{
     display: flex;
     justify-content: center;
     position: sticky;
-    padding-top: 10px;
+    padding-top: 2px;
     top: 90px;
-    z-index: 99;
+    z-index: 1;
     /* background-color:#C9EBFF; */
 }
 
+@media only screen and (max-width:1000px) {
+    .icons-display{
+        top: 120px;
+    }
+}
 @media only screen and (max-width:800px) {
     .icons-display {
-        top:100px;
+        display: none;
+    }
+    .icon-card-btn{
+        width: 100px;
+        margin-right: 2px;
     }
       .hero-bg-6 {
         height: 710px;
@@ -11633,7 +11645,7 @@ body {
 
 @media only screen and (max-width:600px) {
     .icons-display {
-        top:100px;
+        display: none;
     }
     .hero-bg-6 {
         height: 710px;
@@ -11646,7 +11658,7 @@ body {
 
 @media only screen and (max-width:400px) {
     .icons-display {
-        top:100px;
+        display: none;
     }
     .hero-bg-6 {
         height: 710px;
@@ -11657,8 +11669,7 @@ body {
     }
 }
 
-.icon-card{
-    
+.icon-card{  
     padding-right: 0px;
     padding-left:2px;
 }
@@ -11757,4 +11768,40 @@ color: #ffffff !important;
   display: flex;
   align-items: center;
   justify-content: center
+}
+.position-sticky{
+    position: sticky;
+}
+.shift-right{
+    display:flex;
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width:1000px) {
+    .flight-image-none img{
+        width: 100%;
+    }
+    .text-res{
+        font-size: 12px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:780px) {
+    .flight-image-none img{
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ad-img-res{
+        display: none;
+    }    
+}
+@media only screen and (max-width:650px){
+    .table-res{
+        font-size: 10px;
+    }
+}
+.table-decoration{
+    background-color: #0A87C7 !important;
+    color: white;
 }

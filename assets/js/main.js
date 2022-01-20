@@ -325,3 +325,7 @@
     })
 }(jQuery);
 
+// function changestyle(){
+//     var element = document.getElementsByClassName("hero-bg-6");
+//     element.style.height = "1000px";
+// }

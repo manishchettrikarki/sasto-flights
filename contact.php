@@ -1,34 +1,9 @@
 <?php include("header.php"); ?>
 
 <!-- ================================
-    START BREADCRUMB AREA
-================================= -->
-<section class="breadcrumb-area bread-bg-5">
-    <div class="breadcrumb-wrap">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="breadcrumb-content">
-                        <div class="section-heading">
-                            <h2 class="sec__title text-white">Contact us</h2>
-                        </div>
-                    </div><!-- end breadcrumb-content -->
-                </div><!-- end col-lg-6 -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end breadcrumb-wrap -->
-    <div class="bread-svg-box">
-        
-    </div><!-- end bread-svg -->
-</section><!-- end breadcrumb-area -->
-<!-- ================================
-    END BREADCRUMB AREA
-================================= -->
-
-<!-- ================================
     START CONTACT AREA
 ================================= -->
-<section class="contact-area section--padding">
+<section class="contact-area padding-top-20px">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -134,7 +109,7 @@
 <!-- ================================
     START MAP AREA
 ================================= -->
-<section class="map-area padding-bottom-100px">
+<section class="map-area padding-bottom-50px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
